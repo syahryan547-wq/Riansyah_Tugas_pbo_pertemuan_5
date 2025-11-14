@@ -1,0 +1,13 @@
+package tugas;
+
+public class foreach {
+    public static void main(String[] args) {
+      
+        int angka []= {10, 20, 30, 40, 50};
+
+        System.out.println("menampilkan nilai array dengan foreach:");
+        for (int x : angka) {
+            System.out.println(x);
+        }
+    }
+}
