@@ -39,3 +39,4 @@ public class pola_segitiga {
             System.out.println();
         }
     }
+}
