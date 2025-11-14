@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+        int bilangan;
+        
+        // Inisialisasi nilai awal
+        int terbesar = Integer.MIN_VALUE;
+        int terkecil = Integer.MAX_VALUE;
+
+        System.out.println("Masukkan 10 bilangan:");
+
+        for (int i = 1; i <= 10; i++) {
+            System.out.print("Bilangan ke-" + i + ": ");
+            bilangan = input.nextInt();
+
+            // Cek terbesar
+            if (bilangan > terbesar) {
+                terbesar = bilangan;
+            }
+
+            // Cek terkecil
+            if (bilangan < terkecil) {
+                terkecil = bilangan;
+            }
+        }
+
+        System.out.println("\nBilangan terbesar: " + terbesar);
+        System.out.println("Bilangan terkecil: " + terkecil);
+    }
+}
