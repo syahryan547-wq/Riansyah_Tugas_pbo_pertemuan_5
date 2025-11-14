@@ -1,15 +1,14 @@
-public class soal6{
+package tugas;
+
+public class menampilkan_angka{
     public static void main(String[] args) {
-        
         for (int i = 0; i < 10; i++) {
-            if (i == 9) {
-                
-                System.out.println(11);
+            if (i == 5 || i == 6) {
                 System.out.println(11);
             } else {
-            
-                System.out.println(i + 1);
+                System.out.println(i);
             }
         }
     }
 }
+
