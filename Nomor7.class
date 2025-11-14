@@ -1,0 +1,19 @@
+package tugas;
+
+public class perbedaan {
+    public static void main(String[] args) {
+        int i = 0;
+        System.out.println("menggunakan i++ :");
+        while (i < 5) {
+            System.out.println(i++); //nilai di tampilkan dulu baru ditambah 1
+        }
+
+        i = 0;
+        System.out.println("\nmenggunakan ++i :"); 
+        while (i < 5) {
+            System.out.println(++i); //niali ditambah 1 dulu baru ditampilkan
+        }
+    }
+}
+
+ 
